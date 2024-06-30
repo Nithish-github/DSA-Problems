@@ -16,8 +16,7 @@ class Solution:
             if currentSum < 0:
                 currentSum = 0 
                 L= R
-             
-            
+
             currentSum += nums[R]
 
             if currentSum > maxSum:
