@@ -1,0 +1,2 @@
+# Stack 
+The stack data structure is a linear data structure that follows the '''Last In, First Out (LIFO)''' principle. Here’s the general syntax and key operations for a stack in Python, but the concepts can be applied to other programming languages as well.
