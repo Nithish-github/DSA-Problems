@@ -2,7 +2,6 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
         #needed to use two pointer approch towards this problem 
-
         i = 0
         j = len(numbers)-1
 
