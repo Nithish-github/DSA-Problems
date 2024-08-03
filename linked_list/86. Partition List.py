@@ -18,7 +18,7 @@ class Solution:
                 ltail  = ltail.next
 
             else:
-                rtail.next = head
+                rtail.next = heads
                 rtail = rtail.next
 
             head = head.next
