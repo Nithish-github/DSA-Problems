@@ -2,6 +2,7 @@ class Solution:
     def checkIfPrerequisite(self, numCourses: int, prerequisites: List[List[int]], queries: List[List[int]]) -> List[bool]:
 
         adj = defaultdict(list)
+
         for prereq, crs in prerequisites:
             adj[crs].append(prereq)
         
@@ -18,7 +19,6 @@ class Solution:
             dfs(crs)
 
         res = []
-        print(prereqMap)
         for u, v in queries:
             res.append(u in prereqMap[v])
         return res
